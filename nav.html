@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="img/logo_lang-07.png" alt="">
+            <div class="lijn"></div>
+        </div>
+        <div class="nav">
+            <div>
+                <img src="img/Home-3--Streamline-Core.png" alt="">
+                <a href="">Startpagina</a>
+            </div>
+            <div>
+                <img src="img/Chat-Bubble-Oval-Notification--Streamline-Core.png" alt="">
+                <a href="">E-box</a>
+            </div>
+            <div>
+                <img src="img/New-File--Streamline-Core.png" alt="">
+                <a href="">Aanvragen</a>
+                <img src="img/arrow.png" class="toggle-aanvraag" alt="">
+            </div>
+            <div class="aanvraag">
+                <a href="">Mijn aanvragen</a>
+                <a href="">Overzicht</a>
+            </div>
+            <div>
+                <img src="img/information-circle--information-frame-info-more-help-point-circle.png" alt="">
+                <a href="">Informatie</a>
+                <img src="img/arrow.png" class="toggle-informatie" alt="">
+            </div>
+            <div class="informatie">
+                <a href="">Rijbewijs</a>
+                <a href="">Studeren</a>
+                <a href="">Werken</a>
+                <a href="">Stemmen</a>
+                <a href="">Identiteit</a>
+                <a href="">Justitie</a>
+            </div>
+            <div>
+                <img src="img/Icon.png" alt="">
+                <a href="">Mijn gegevens</a>
+            </div>
+        </div>  
+    </nav>
+    
+    <script>
+        // Wacht tot de DOM is geladen voordat de JavaScript wordt uitgevoerd
+        document.addEventListener('DOMContentLoaded', function() {
+            // Voeg een klikgebeurtenis toe aan de toggle-aanvraag en toggle-informatie
+            document.querySelector('.toggle-aanvraag').addEventListener('click', function() {
+                var arrow = document.querySelector('.toggle-aanvraag img');
+                document.querySelector('.aanvraag').classList.toggle('zichtbaar');
+                arrow.style.transform = arrow.style.transform ? '' : 'rotate(90deg)'; // Toggle rotatie
+            });
+    
+            document.querySelector('.toggle-informatie').addEventListener('click', function() {
+                var arrow = document.querySelector('.toggle-informatie img');
+                document.querySelector('.informatie').classList.toggle('zichtbaar');
+                arrow.style.transform = arrow.style.transform ? '' : 'rotate(90deg)'; // Toggle rotatie
+            });
+        });
+
+        
+    </script>
+    
+    </body>
+    </html>
