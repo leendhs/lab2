@@ -35,6 +35,7 @@ h3 {
 
 .naast {
     display: flex;
+    align-items: center;
     gap: 16px;
 }
 
@@ -66,8 +67,9 @@ h3 {
     margin: 0;
 }
 
-.naast {
+.onder {
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
