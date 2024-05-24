@@ -1,68 +1,86 @@
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8F8F8;
+    margin-left: 20px;
+}
+
+.id {
     background-color: red;
-    font-family: DM Sans;
+    border-radius: 24px;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    color: white;
 }
 
-nav {
-    width: 296px; 
-    height: 110%; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-    background: white; 
-    border-bottom-right-radius: 24px; 
-    border-top-right-radius: 24px;
-    padding-left: 20px;
+.cirkel {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
 }
 
-nav a {
-    text-decoration: none;
-    color: black;
-    padding-top: 3px;
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
 }
 
-.nav {
-    width: 100%; 
-    padding-left: 16px; 
-    justify-content: flex-start; 
-    gap: 32px; 
-    display: inline-flex;
-    flex-direction: column;
+.afhalen {
+    font-size: 24px;
+    font-weight: 400;
 }
 
-.nav div {
-    justify-content: flex-start; 
-    /* align-items: center;  */
-    gap: 32px; 
-    display: inline-flex;
-    margin-top: 20px;
-}
-
-.lijn {
-    width: 80%; 
-    height: 100%; 
-    border: 1px #D9D9D9 solid;
-}
-
-.logo img {
-    width: 200px;
+.naast {
     display: flex;
-    justify-content: center;
+    gap: 16px;
+}
+
+.herinnering, .pasfoto {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.herinnering {
+    margin-top: -20px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.examen {
+    background-color: white;
+    border-radius: 24px;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.twaalf {
+    color: #FF9900;
+    font-size: 144px;
+    margin: 0;
+}
+
+.naast {
+    display: flex;
     align-items: center;
 }
 
-.aanvraag, .informatie {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; 
-    gap: 8px; 
-    display: inline-flex;
-    padding-left: 20px;
-    display: none !important;
+.dagen {
+    margin: 0;
 }
 
-.zichtbaar {
-    display: flex !important; /* of display: flex, of display: inline-block, afhankelijk van je layout behoeften */
+.div{
+    background-color: white;
+    border-radius: 24px;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-bottom: 50px;
 }
-
