@@ -2,7 +2,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #F8F8F8;
-    margin-left: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 100px;
 }
 
 .id {
@@ -85,4 +87,45 @@ h3 {
     margin-right: auto;
     padding: 20px;
     margin-bottom: 50px;
+}
+
+.titel {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btn {
+    padding-left: 16px; 
+    padding-right: 16px; 
+    background: #4F43E1; 
+    border-radius: 16px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centreer het element */
+
+}
+
+.btn p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.laatste {
+    margin-bottom: 120px;
+}
+
+h1{
+    margin-top: 56px;
+}
+
+.margin{
+    margin-top: 50px;
+}
+
+.onder {
+    margin-bottom: 200px;
 }
