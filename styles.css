@@ -23,6 +23,7 @@ nav {
     margin: 20px auto;
     padding: 20px;
     box-sizing: border-box;
+    position: relative;
 }
 
 .id {
@@ -138,4 +139,74 @@ a:hover, a:focus, a:active {
 
 .examen a {
     display: block;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.notification {
+    background-color: #FF3B30;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    position: absolute;
+    top: -30px;
+    right: -22px;
+}
+
+.menu img {
+    width: 20px;
+    height: 20px;
+}
+
+.diagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
+
+.green .circle {
+    stroke: #4caf50;
+}
+
+.percentage {
+    fill: #666;
+    font-size: 0.5em;
+    text-anchor: middle;
 }
