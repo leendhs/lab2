@@ -1,9 +1,9 @@
 1. login 
 2. index: 
-    - notificatie bij id en praktijk examen  
+    - notificatie bij id en praktijk examen Done half 
     - link naar praktijk.html maken -- Done
-    - drie puntjes bij elke widget 
-    - diagram bij div 
+    - drie puntjes bij elke widget Done alleen nog nieuwe foto
+    - diagram bij div Done ma nog nie af
 3. ebox: 
     - opmaak 
 4. aanvragen
