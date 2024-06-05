@@ -1,0 +1,18 @@
+1. login 
+2. index: 
+    - notificatie bij id en praktijk examen 
+    - link naar praktijk.html maken 
+    - drie puntjes bij elke widget 
+    - diagram bij div 
+3. ebox: 
+    - opmaak 
+4. aanvragen
+    - alles 
+5. gegevens
+    - opmaak 
+6. informatie paginas 
+    - hamburger menu 
+7. navigatie
+    - maken 
+    - koppelen aan paginas 
+8. responsive maken 
