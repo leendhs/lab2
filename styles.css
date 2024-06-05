@@ -38,6 +38,60 @@ nav {
     border: 1px solid white;
 }
 
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.resultaten-header {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.resultaten {
+    background-color: white;
+    border-radius: 24px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.resultaat-item {
+    margin-bottom: 20px;
+}
+
+.resultaat-titel {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+.resultaat-info {
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    margin: 0;
+}
+
+.resultaat-item:last-child {
+    margin-bottom: 0;
+}
+
+
 h3 {
     font-size: 24px;
     font-weight: 600;
@@ -235,3 +289,5 @@ a:hover, a:focus, a:active {
     font-size: 0.5em;
     text-anchor: middle;
 }
+
+

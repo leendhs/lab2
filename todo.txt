@@ -2,10 +2,10 @@
 2. index: 
     - notificatie bij id en praktijk examen -- Done
     - link naar praktijk.html maken -- Done
-    - drie puntjes bij elke widget --  Done alleen nog nieuwe foto
+    - drie puntjes bij elke widget --  Done 
     - diagram bij div -- Done
 3. ebox: 
-    - opmaak 
+    - opmaak -- Done
 4. aanvragen
     - alles 
 5. gegevens
