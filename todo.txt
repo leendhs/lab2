@@ -1,7 +1,7 @@
 1. login 
 2. index: 
-    - notificatie bij id en praktijk examen 
-    - link naar praktijk.html maken 
+    - notificatie bij id en praktijk examen  
+    - link naar praktijk.html maken -- Done
     - drie puntjes bij elke widget 
     - diagram bij div 
 3. ebox: 
