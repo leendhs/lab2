@@ -4,72 +4,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+        body {
+            font-family: "DM Sans";
+            background-color: #F8F8F8;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        nav {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .nav {
+            display: block;
+            position: fixed;
+            top: 0;
+            right: 0;
+            height: 100%;
+            width: 296px;
+            background-color: white;
+            z-index: 999;
+            overflow-y: auto;
+            padding-top: 50px;
+            border-top-left-radius: 40px;
+            border-bottom-left-radius: 40px;
+        }
+
+        nav div {
+            padding: 15px;
+        }
+
+        .nav-item a {
+            display: block;
+            padding: 10px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .nav-item img {
+            margin-right: 10px;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-item.informatie {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .highlighted {
+            background-color: lightgray;
+        }
+    </style>
 </head>
 <body>
     <nav>
-        <div class="logo">
-            <img src="img/logo_lang-07.png" alt="">
-            <div class="lijn"></div>
-        </div>
         <div class="nav">
-            <div>
+            <div class="nav-item">
                 <img src="img/Home-3--Streamline-Core.png" alt="">
-                <a href="">Startpagina</a>
+                <a href="#" class="nav-link">Startpagina</a>
             </div>
-            <div>
+            <div class="nav-item">
                 <img src="img/Chat-Bubble-Oval-Notification--Streamline-Core.png" alt="">
-                <a href="">E-box</a>
+                <a href="#" class="nav-link">E-box</a>
             </div>
-            <div>
+            <div class="nav-item">
                 <img src="img/New-File--Streamline-Core.png" alt="">
-                <a href="">Aanvragen</a>
-                <img src="img/arrow.png" class="toggle-aanvraag" alt="">
+                <a href="#" class="nav-link">Aanvragen</a>
             </div>
-            <div class="aanvraag">
-                <a href="">Mijn aanvragen</a>
-                <a href="">Overzicht</a>
-            </div>
-            <div>
+            <div class="nav-item">
                 <img src="img/information-circle--information-frame-info-more-help-point-circle.png" alt="">
-                <a href="">Informatie</a>
-                <img src="img/arrow.png" class="toggle-informatie" alt="">
+                <a href="#" class="nav-link">Informatie</a>
             </div>
-            <div class="informatie">
-                <a href="">Rijbewijs</a>
-                <a href="">Studeren</a>
-                <a href="">Werken</a>
-                <a href="">Stemmen</a>
-                <a href="">Identiteit</a>
-                <a href="">Justitie</a>
+            <div class="nav-item informatie">
+                <a href="#" class="nav-link">Rijbewijs</a>
+                <a href="#" class="nav-link">Studeren</a>
+                <a href="#" class="nav-link">Werken</a>
+                <a href="#" class="nav-link">Stemmen</a>
+                <a href="#" class="nav-link">Identiteit</a>
+                <a href="#" class="nav-link">Justitie</a>
             </div>
-            <div>
+            <div class="nav-item">
                 <img src="img/Icon.png" alt="">
-                <a href="">Mijn gegevens</a>
+                <a href="#" class="nav-link">Mijn gegevens</a>
             </div>
         </div>  
     </nav>
     
     <script>
-        // Wacht tot de DOM is geladen voordat de JavaScript wordt uitgevoerd
         document.addEventListener('DOMContentLoaded', function() {
-            // Voeg een klikgebeurtenis toe aan de toggle-aanvraag en toggle-informatie
-            document.querySelector('.toggle-aanvraag').addEventListener('click', function() {
-                var arrow = document.querySelector('.toggle-aanvraag img');
-                document.querySelector('.aanvraag').classList.toggle('zichtbaar');
-                arrow.style.transform = arrow.style.transform ? '' : 'rotate(90deg)'; // Toggle rotatie
-            });
-    
-            document.querySelector('.toggle-informatie').addEventListener('click', function() {
-                var arrow = document.querySelector('.toggle-informatie img');
-                document.querySelector('.informatie').classList.toggle('zichtbaar');
-                arrow.style.transform = arrow.style.transform ? '' : 'rotate(90deg)'; // Toggle rotatie
+            var navLinks = document.querySelectorAll('.nav-link');
+
+            function removeHighlight() {
+                navLinks.forEach(function(link) {
+                    link.classList.remove('highlighted');
+                });
+            }
+
+            navLinks.forEach(function(link) {
+                link.addEventListener('click', function() {
+                    removeHighlight();
+                    link.classList.add('highlighted');
+                });
             });
         });
-
-        
     </script>
-    
-    </body>
-    </html>
+</body>
+</html>

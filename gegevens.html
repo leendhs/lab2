@@ -9,14 +9,48 @@
 </head>
 <body>
     <nav>
-        <img src="img/menu.png" alt="menu">
+        <img class="toggle" src="img/menu.png" alt="menu">
+        <div class="nav">
+            <div class="naast" >
+                <img src="img/Home-3--Streamline-Core.png" alt="">
+                <a href="index.html">Startpagina</a>
+            </div>
+            <div class="naast">
+                <img src="img/Chat-Bubble-Oval-Notification--Streamline-Core.png" alt="">
+                <a href="ebox.html">E-box</a>
+            </div>
+            <div class="naast">
+                <img src="img/New-File--Streamline-Core.png" alt="">
+                <a href="aanvragen.html">Aanvragen</a>
+            </div>
+            <div class="naast" >
+                <img src="img/information-circle--information-frame-info-more-help-point-circle.png" alt="">
+                <a href="">Informatie</a>
+            </div>
+            <div class="informatie">
+                <a href="rijbewijs.html" class="">Rijbewijs</a>
+                <a href="studeren.html" class="">Studeren</a>
+                <a href="werken.html" class="">Werken</a>
+                <a href="stemmen.html" class="">Stemmen</a>
+                <a href="identitiet.html" class="">Identiteit</a>
+                <a href="justitie.html" class="">Justitie</a>
+            </div>
+            <div class="naast active-link">
+                <img src="img/Icon.png" alt="">
+                <a href="gegevens.html">Mijn gegevens</a>
+            </div>
+            <div class="naast">
+                <img src="img/Icons.png" alt="">
+                <a href="">Logout</a>
+            </div>
+        </div>  
     </nav>
     <h1>Mijn gegevens</h1>
     <h2>Identiteitsgegevens</h2>
-    <div class="id">
-        <div class="gd">
-            <p>GD</p>
-            <p>Gitte Dekerpel</p>
+    <div class="widget">
+        <div class="naast">
+            <p class="gd">GD</p>
+            <p class="heading">Gitte Dekerpel</p>
         </div>
         <div class="info-block">
             <div class="info-item">
@@ -47,24 +81,28 @@
     </div>
 
     <h2>Gezinssamenstelling</h2>
-    <p>Gezinsleden verblijvend op Stationsstraat 72A, 3080 Tervuren</p>
     <div class="gezin">
+    <p>Gezinsleden verblijvend op Stationsstraat 72A, 3080 Tervuren</p>
         <div class="g1">
             <p>Peter Dekerpel</p>
-            <p>Lieve Janssens</p>
+            <div class="naast">
+                <p>Lieve Janssens</p>
+                <p>Gitte Dekerpel</p>
+            </div>
             <p>Kasper Dekerpel</p>
         </div>
-        <div class="g2">
-            <p>Gitte Dekerpel</p>
-        </div>
+        
     </div>
 
     <h2>Onderwijs</h2>
-    <div class="studies">
-        <p class="label">Secundair onderwijs</p>
-        <p class="value">Heilig Hartcollege</p>
+    <div class="widget">
+        <p class="titel">Secundair onderwijs</p>
+        <p class="grijs">Heilig Hartcollege</p>
         <p class="value">Albertlaan 44, 1970 Wezembeek-Oppem</p>
         <p class="value">Ingeschreven vanaf 2018</p>
     </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>

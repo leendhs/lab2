@@ -7,12 +7,24 @@
 3. ebox: 
     - opmaak -- Done
 4. aanvragen
-    - alles 
+    - HTML -- Done
+    - Diagram bij live tracker
+    - pijltjes bij aanvraag -- Done 
+    - andere paginas
+    - koppelen aan elkaar 
 5. gegevens
-    - opmaak 
+    - opmaak -- Done 
 6. informatie paginas 
-    - hamburger menu 
+    - hamburger menu -- Done 
 7. navigatie
-    - maken 
-    - koppelen aan paginas 
+    - maken -- Done 
+    - koppelen aan paginas -- Done 
+    - opmaak 
 8. responsive maken 
+    - infrmatie schermen -- Done
+    - index -- Done enkel nog de widgets smaller maken 
+    - aanvragen 
+    - navigatie 
+    - ebox -- Done 
+    - praktijk scherm -- Done enkel nog de widgets smaller maken 
+9. Font -- Done 
