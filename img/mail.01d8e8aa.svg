@@ -1,0 +1,23 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px"
+     y="0px"
+     viewBox="0 0 283.5 283.5" style="enable-background:new 0 0 283.5 283.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
+	.st1{stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+</style>
+  <title>icon-otp-mail</title>
+  <g id="Layer_1_1_">
+	<path class="st0" d="M21.9,76.2h201.7c9,0,16.3,7.3,16.3,16.3v143.1c0,9-7.3,16.3-16.3,16.3H21.9c-9,0-16.3-7.3-16.3-16.3V92.5
+		C5.6,83.5,13,76.2,21.9,76.2z"/>
+    <path class="st0" d="M5.6,103.7V90.3c0-7.7,6.2-14.1,14.1-14.1h206.1c7.7,0,14.1,6.2,14.1,14.1v13.4l-107,84.1
+		c-6.4,3.1-13.8,3.1-20.2,0L5.6,103.7z"/>
+    <circle class="st0" cx="218.1" cy="91.6" r="60.9"/>
+    <g>
+		<path class="st1" d="M201.5,87.4h33.2c0.7,0,1.2,0.6,1.2,1.2v26.1c0,0.7-0.6,1.2-1.2,1.2h-33.2c-0.7,0-1.2-0.6-1.2-1.2V88.6
+			C200.3,87.9,200.8,87.4,201.5,87.4z"/>
+      <path class="st2"
+            d="M229.7,79c0.2-6.5-4.9-11.9-11.4-12.2c-6.5-0.2-11.9,4.9-12.2,11.4c0,0.2,0,0.6,0,0.8v8.4h23.4V79H229.7z"/>
+	</g>
+</g>
+</svg>

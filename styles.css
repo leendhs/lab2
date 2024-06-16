@@ -534,6 +534,125 @@ h2 {
     gap: 20px;
 }
 
+.left-header{
+    font-size: 24px;
+}
+
+#app{
+    background-color: #fff;
+    margin: -40px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.rand {
+    display: flex;
+    align-items: center; /* Zorgt ervoor dat de items verticaal gecentreerd zijn */
+    border-bottom: 1px solid #ccc; /* Grijze lijn onder de header */
+    padding-bottom: 10px; /* Optioneel: ruimte onder de lijn */
+}
+
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Zorgt ervoor dat de items verticaal gecentreerd zijn */
+    margin-right: 10px; /* Optioneel: pas de afstand tussen het logo en de titel aan */
+    position: relative; /* Maakt positionering van de lijn mogelijk */
+}
+
+.logo-container::after {
+    content: "";
+    position: absolute;
+    right: -5px; /* Plaatst de lijn net rechts van de container */
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #ccc; /* Kleur van de lijn */
+    height: 100%; /* Maakt de lijn even hoog als de container */
+}
+
+.csam-header-content {
+    display: flex;
+    align-items: center; /* Zorgt ervoor dat de items verticaal gecentreerd zijn */
+    flex-grow: 1; /* Zorgt ervoor dat de content de resterende ruimte inneemt */
+}
+
+.main-title {
+    margin: 0; /* Verwijdert standaard marges van h1 */
+    padding-left: 15px; /* Optioneel: ruimte links van de lijn */
+}
+
+
+.itsme{
+    height: 30px;
+}
+
+.bottom{
+    margin-bottom: 20px;
+
+}
+.purple {
+    color: #871642;
+}
+
+.csam-aanmeld_title{
+    color: #871642;
+}
+
+.csam-aanmeld-container {
+    display: flex;
+    align-items: center; /* Zorgt ervoor dat de items verticaal gecentreerd zijn */
+    border: 1px solid #ccc; /* Grijze rand */
+    border-radius: 8px; /* Lichte border-radius */
+    padding: 10px; /* Ruimte binnen de rand */
+    margin-bottom: 20px;
+}
+
+.csam-aanmeld--icon {
+    flex-shrink: 0; /* Zorgt ervoor dat de icon niet krimpt */
+    margin-right: 10px; /* Optioneel: pas de afstand tussen het icoon en de tekst aan */
+}
+
+.csam-aanmeld--content {
+    display: flex;
+    flex-direction: column; /* Zorgt ervoor dat de titel en subtekst onder elkaar staan */
+    text-align: left;
+    flex-grow: 1; /* Zorgt ervoor dat de content de resterende ruimte inneemt */
+}
+
+.csam-aanmeld--info {
+    margin-left: 10px; /* Optioneel: pas de afstand tussen de content en de info aan */
+}
+
+.no_underline {
+    text-decoration: none; /* Zorgt ervoor dat de links geen onderstreping hebben */
+}
+
+.csam-aanmeld_title {
+    margin: 0; /* Verwijdert standaard marges van h3 */
+}
+
+.csam-aanmeld_subtext {
+    margin: 0; /* Verwijdert standaard marges van div */
+}
+
+.csam-aanmeld-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fff;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-shadow: none;
+    position: relative;
+    display: table
+}
+
+
+
 @media (min-width: 768px) {
     body{
         margin-left: 40px;
@@ -554,6 +673,15 @@ h2 {
         margin-left: 20%;
         margin-right: 20%;
     }
+
+    .row-eq-height{
+        display: flex;
+        gap: 50px;
+    }
+
+    .csam-aanmeld-container {
+        width: 280px;
+    }
 }
 
 
@@ -573,5 +701,12 @@ h2 {
 
     .div {
         margin-bottom: 100px;
+    }
+
+    #app{
+        margin-left: -100px;
+    }
+    .csam-aanmeld-container {
+        width: 400px;
     }
 }
