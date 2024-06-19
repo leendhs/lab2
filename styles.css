@@ -647,6 +647,61 @@ input {
     display: table
 }
 
+.status-tracker {
+    padding: 20px;
+    background-color: white;
+    border-radius: 24px;
+    width: 100%;
+    max-width: 370px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.tracker-bar {
+    position: relative;
+    width: 4px;
+    height: 300px; /* Increased height for better spacing */
+    background-color: #e0e0e0;
+    margin-left: 20px; /* Adjust position closer to the left */
+    margin-top: 10px; /* Add some top margin */
+}
+
+.tracker-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 25%; /* Adjust this percentage according to the current step */
+    background-color: #4caf50;
+}
+
+.tracker-step {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 60px; /* Space between steps */
+    margin-left: -10px; /* Adjust position closer to the left */
+}
+
+.tracker-circle {
+    width: 20px;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    margin-right: 40px; /* Space between circle and text */
+    z-index: 1;
+}
+
+.tracker-step.completed .tracker-circle {
+    background-color: #4caf50;
+}
+
+.tracker-step span {
+    font-size: 16px;
+    color: #666;
+    line-height: 30px; /* Align the text vertically */
+}
 
 
 @media (min-width: 768px) {

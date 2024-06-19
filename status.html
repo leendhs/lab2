@@ -46,21 +46,38 @@
         </div>  
     </nav>
     <div class="info">
-    <h1>Aanvragen</h1>
-    <div class="naast">
-        <img src="img/back.png" alt="">
-        <h2 class="pijl">Uittreksel van het strafregister</h2>
-    </div>
-    <p>Federale overheidsdienst Justitie</p>
+        <h1>Aanvragen</h1>
+        <div class="naast">
+            <img src="img/back.png" alt="">
+            <h2 class="pijl">Uittreksel van het strafregister</h2>
+        </div>
+        <p>Federale overheidsdienst Justitie</p>
 
-    <div class="div">
-        <p>Status van aanvraag:</p>
-        <h3>Aanvraag verstuurt, nog niet behandeld.</h3>
-        <p>Verstuurd</p>
-    <p>Behandeld</p>
-    <p>Goedgekeurd</p>
-    <p>Verstuurd</p>
-    </div>
+        <div class="div">
+            <p>Status van aanvraag:</p>
+            <h3>Aanvraag verstuurt, nog niet behandeld.</h3>
+            <div class="status-tracker">
+                <div class="tracker-bar">
+                    <div class="tracker-progress"></div>
+                    <div class="tracker-step completed">
+                        <div class="tracker-circle"></div>
+                        <span>Verstuurd</span>
+                    </div>
+                    <div class="tracker-step">
+                        <div class="tracker-circle"></div>
+                        <span>Behandeld</span>
+                    </div>
+                    <div class="tracker-step">
+                        <div class="tracker-circle"></div>
+                        <span>Goedgekeurd</span>
+                    </div>
+                    <div class="tracker-step">
+                        <div class="tracker-circle"></div>
+                        <span>Verstuurd</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
